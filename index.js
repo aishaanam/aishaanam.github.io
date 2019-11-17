@@ -27,7 +27,7 @@ const projects = [
         name: 'DTAd',
         description: 'Dysphagia Therapy Assisting Device <i>Winning project Mechaton\'19 Israel</i>',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -35,7 +35,7 @@ const projects = [
         name: 'Instructional Design',
         description: '<i>Project 2 (mini)</i>',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -51,7 +51,7 @@ const projects = [
         name: 'Museum of Language London',
         description: '<i>Among top 50 in Internation competition</i>',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -59,7 +59,7 @@ const projects = [
         name: 'Service Design',
         description: 'IDC placement service & food service in office',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -67,7 +67,7 @@ const projects = [
         name: 'Footreak',
         description: 'Foot based interactive installation for phoysical fitness',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -75,7 +75,7 @@ const projects = [
         name: 'Beam On',
         description: 'Educational board game for school children',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -83,7 +83,7 @@ const projects = [
         name: 'Interior Design',
         description: 'project as a design consultant',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -99,7 +99,7 @@ const projects = [
         name: 'DataViz.',
         description: 'GeoViz, datastories, conceptual mapping',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -107,7 +107,7 @@ const projects = [
         name: 'Note Box',
         description: 'Currency identification tool for visually impaired people',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -115,7 +115,7 @@ const projects = [
         name: 'Circlization',
         description: 'Cyber-Neuro- Physical Educational game ',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -123,7 +123,7 @@ const projects = [
         name: 'Voluteer',
         description: '',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -131,7 +131,7 @@ const projects = [
         name: 'Landscape Design',
         description: 'redesigning urban park',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -139,7 +139,7 @@ const projects = [
         name: 'Shollarom',
         description: 'Game design for elderly people with dementia <i>Internship & Research</i>',
         main: 'sample.jpg',
-        hover: 'sample-hover.jpg',
+        hover: 'sample.jpg',
         layout: 'img-top',
         page: ''
     }
@@ -148,7 +148,7 @@ const projectColumns=2,projectsLength=projects.length;
 function showSectionImg(event){
     document.getElementById("img").src = "banner/"+event.target.getAttribute('data-section-img');
 }
-function backnormal(e){
+function backnormal(event){
     document.getElementById("img").src = "banner/00banner.jpg";
 }
 function showOverlay(event){
@@ -161,20 +161,16 @@ function projectMouseOver(event){
     event.currentTarget.children[0].src = "Icons/"+event.currentTarget.getAttribute('data-img-hover');
 }
 function projectMouseOut(event){
-
     var e = event.toElement || event.relatedTarget;
     if (e.parentNode == this || e == this) {
        return;
     }
-
     event.currentTarget.children[0].src = "Icons/"+event.currentTarget.getAttribute('data-img');
-
 }
 
 $(document).ready(function () {
 
     let $projectsEl = $('#projects');
-    // let gridEl="<div>";
     let gridEl=`<div class="row">`;
     
     projects.map(function(project,i){
@@ -190,8 +186,6 @@ $(document).ready(function () {
     })
     gridEl+="</div>";
     $(gridEl).appendTo($projectsEl);
-    //.getElementsByClassName('project').map(project=>project.addEventListener('mouseout',projectMouseOut,true));
-    //document.getElementsByClassName('project').map(project=>project.addEventListener('mouseover',projectMouseOver,true));
     $('.project').hover(projectMouseOver,projectMouseOut);
     $('.project').click(function(event){
         const page = event.currentTarget.getAttribute('data-page');
