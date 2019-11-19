@@ -89,7 +89,7 @@ const projects = [
     },
     {
         name: 'Oblivian',
-        description: 'Smart transportation system for IITB Campus',
+        description: 'Nuclear Landmarker System, New Mexico. <i>Competition Entry</i>',
         main: 'nuclear bnw.jpg',
         hover: 'nuclear.jpg',
         layout: 'img-down',
