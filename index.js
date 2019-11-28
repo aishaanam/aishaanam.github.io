@@ -26,8 +26,8 @@ const projects = [
     {
         name: 'DTAd',
         description: 'Dysphagia Therapy Assisting Device <i>Winning project Mechaton\'19 Israel</i>',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'DTAd Bnw.jpg',
+        hover: 'DTAd.jpg',
         layout: 'img-top',
         page: 'DTA verification low.pdf'
     },
@@ -122,8 +122,8 @@ const projects = [
     {
         name: 'Voluteer',
         description: '',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'NGO bnw.jpg',
+        hover: 'NGO clr.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -138,8 +138,8 @@ const projects = [
     {
         name: 'Shollarom',
         description: 'Game design for elderly people with dementia <i>Internship & Research</i>',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'shollarom bnw.jpg',
+        hover: 'shollarom.jpg',
         layout: 'img-top',
         page: ''
     }
