@@ -29,15 +29,15 @@ const projects = [
         main: 'sample.jpg',
         hover: 'sample.jpg',
         layout: 'img-top',
-        page: ''
+        page: 'DTA verification low.pdf'
     },
     {
         name: 'Instructional Design',
         description: '<i>Project 2 (mini)</i>',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'Instructional Design BnW.jpg',
+        hover: 'Instructional Design.jpg',
         layout: 'img-top',
-        page: ''
+        page: 'Instructional design o1.pdf'
     },
     {
         name: 'Our Canoe',
@@ -50,40 +50,40 @@ const projects = [
     {
         name: 'Museum of Language London',
         description: '<i>Among top 50 in Internation competition</i>',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'Museum of LAnguage bnw.jpg',
+        hover: 'Museum of LAnguage.jpg',
         layout: 'img-top',
         page: ''
     },
     {
         name: 'Service Design',
         description: 'IDC placement service & food service in office',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'service bnW.jpg',
+        hover: 'service.jpg',
         layout: 'img-top',
         page: ''
     },
     {
         name: 'Footreak',
         description: 'Foot based interactive installation for phoysical fitness',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'footreack BnW.jpg',
+        hover: 'footreack.jpg',
         layout: 'img-top',
-        page: ''
+        page: 'Footreak.pdf'
     },
     {
         name: 'Beam On',
         description: 'Educational board game for school children',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'borad game n.jpg',
+        hover: 'borad game.jpg',
         layout: 'img-top',
         page: ''
     },
     {
         name: 'Interior Design',
         description: 'project as a design consultant',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'Interior BnW.jpg',
+        hover: 'Interior.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -98,24 +98,24 @@ const projects = [
     {
         name: 'DataViz.',
         description: 'GeoViz, datastories, conceptual mapping',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'Data Viz BnW.jpg',
+        hover: 'Data Viz.jpg',
         layout: 'img-top',
         page: ''
     },
     {
         name: 'Note Box',
         description: 'Currency identification tool for visually impaired people',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'Notebox bnw.jpg',
+        hover: 'Notebox.jpg',
         layout: 'img-top',
         page: ''
     },
     {
         name: 'Circlization',
         description: 'Cyber-Neuro- Physical Educational game ',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'circlization BnW.jpg',
+        hover: 'circlization.jpg',
         layout: 'img-top',
         page: ''
     },
@@ -130,8 +130,8 @@ const projects = [
     {
         name: 'Landscape Design',
         description: 'redesigning urban park',
-        main: 'sample.jpg',
-        hover: 'sample.jpg',
+        main: 'LAndscape BnW.jpg',
+        hover: 'LAndscape.jpg',
         layout: 'img-top',
         page: ''
     },
