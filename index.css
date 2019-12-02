@@ -50,7 +50,9 @@ body{
 #index{
     text-align: left;
     position: relative;
-    color: rgb(113,113,113)
+    color: rgb(113,113,113);
+    font-weight: 400;
+    font-size: 14px;
 }
 #index ul{
     position: absolute;
