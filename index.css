@@ -47,6 +47,23 @@ body{
     font-size: 12px;
 }
 
+@media screen and (min-width: 1280px) {
+    #img {
+        width: 1250px;
+    }
+    body{
+        margin: 50px 0 0 0; 
+    }   
+}
+@media screen and (min-width: 1500px) {
+    #img {
+        width: 1480px;
+    }
+    #projects{
+        margin-top: 70px;
+    } 
+}
+
 #index{
     text-align: left;
     position: relative;
@@ -80,7 +97,7 @@ body{
         top: -19px;
         left: -20px;
     }
-  }
+}
 
 #projects .row{
     width: 500px;
