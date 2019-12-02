@@ -62,15 +62,24 @@ body{
     position: relative;
     margin: 10px 0;
 }
-#index ul li::before {
+#index ul li:before {
     content: "\2022";
     color: rgb(254,182,185);
-    /* font-weight: bold; */
     display: inline-block;
     font-size: 40px;
     position: absolute;
     top: -22px;
     left: -16px;
+}
+@media screen and (min-width: 1440px) {
+    #index ul {
+        left: 200px;
+    }
+    
+    #index ul li:before {
+        top: -19px;
+        left: -20px;
+    }
   }
 
 #projects .row{
