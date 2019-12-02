@@ -5,7 +5,7 @@ const projects = [
         main: 'Magic school BnW.jpg',
         hover: 'Magic school Colour.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'magic.html',
         classes: ''
     },
     {
@@ -50,7 +50,7 @@ const projects = [
         main: 'Canoebnw.jpg',
         hover: 'Canoe.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'canoe.html',
         classes: ''
     },
     {
@@ -59,7 +59,7 @@ const projects = [
         main: 'Museum of LAnguage bnw.jpg',
         hover: 'Museum of LAnguage.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'museum.html',
         classes: ''
     },
     {
@@ -95,7 +95,7 @@ const projects = [
         main: 'Interior BnW.jpg',
         hover: 'Interior.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'interior.html',
         classes: ''
     },
     {
@@ -122,7 +122,7 @@ const projects = [
         main: 'Notebox bnw.jpg',
         hover: 'Notebox.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'HFID.pdf',
         classes: 'light-green'
     },
     {
@@ -149,7 +149,7 @@ const projects = [
         main: 'LAndscape BnW.jpg',
         hover: 'LAndscape.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'landscape.html',
         classes: ''
     },
     {
