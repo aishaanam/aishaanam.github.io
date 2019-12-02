@@ -91,7 +91,7 @@ body{
 .project img{
     border-radius: 100%;
 }
-.project:nth-child(1),.project:nth-child(3),.project:nth-child(5){
+.project:nth-child(1),.project:nth-child(4),.project:nth-child(5){
     position: relative;
     top: 60px;
 }
