@@ -86,7 +86,8 @@ const projects = [
         main: 'borad game n.jpg',
         hover: 'borad game.jpg',
         layout: 'img-top',
-        page: 'light-green'
+        page: '',
+        classes: 'light-green'
     },
     {
         name: 'Interior Design',
