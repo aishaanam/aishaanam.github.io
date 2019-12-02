@@ -1,11 +1,75 @@
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow-Regular.ttf") format("ttf"), url("fonts/Barlow-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow-Light.ttf") format("ttf"), url("fonts/Barlow-Light.woff") format("woff");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow-LightItalic.ttf") format("ttf"), url("fonts/Barlow-LightItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic; 
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow-Medium.ttf") format("ttf"), url("fonts/Barlow-Medium.woff") format("woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow-MediumItalic.ttf") format("ttf"), url("fonts/Barlow-MediumItalic.ttf") format("woff");
+    font-weight: 400;
+    font-style: italic; 
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow-SemiBold.ttf") format("ttf"), url("fonts/Barlow-SemiBold.woff") format("woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow-SemiBoldItalic.ttf") format("ttf"), url("fonts/Barlow-SemiBoldItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic; 
+}
+
+
+
 body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 12px;
 }
+
+#index{
+    text-align: left;
+    position: relative;
+    color: rgb(113,113,113)
+}
+#index ul{
+    position: absolute;
+    top: 140px;
+}
+#index ul li{
+    position: relative;
+    margin: 10px 0;
+}
+#index ul li::before {
+    content: "\2022";
+    color: rgb(254,182,185);
+    /* font-weight: bold; */
+    display: inline-block;
+    font-size: 40px;
+    position: absolute;
+    top: -22px;
+    left: -16px;
+  }
 
 #projects .row{
     width: 500px;
@@ -13,7 +77,6 @@ body{
     flex-wrap: nowrap;
     margin: 0 auto;
 }
-
 .project img{
     border-radius: 100%;
 }
@@ -34,11 +97,16 @@ body{
     padding: 5px;
     cursor: pointer;
 }
+#projects .project.light-green {
+    border: 1px solid rgb(150,200,49);
+    position: relative;
+    left: 15px;
+}
 .project-desc i{
     color: #ccc;
 }
 .project-name {
-    font-weight: bold;
+    font-weight: 500;
 }
 .project-desc{
     font-size: 11px;
@@ -84,7 +152,7 @@ a{
     position: relative;
     top: -40px;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     left: 7px;
     width: 100px;
     margin: 0 auto;

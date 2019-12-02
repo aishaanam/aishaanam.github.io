@@ -5,15 +5,17 @@ const projects = [
         main: 'Magic school BnW.jpg',
         hover: 'Magic school Colour.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: ''
     },
     {
         name: 'Dr. A.P.J. Abdul Kalam Memorial',
-        description: 'Winning Entry to the built project',
+        description: ' <i>Winning entry to the built project</i> ',
         main: 'APJ bnw.jpg',
         hover: 'APJ color.jpg',
         layout: 'img-top',
-        page: 'apj.html'
+        page: 'apj.html',
+        classes: ''
     },
     {
         name: 'E-Vaahan',
@@ -21,7 +23,8 @@ const projects = [
         main: 'E Vaahan BnW.jpg',
         hover: 'E Vaahan.jpg',
         layout: 'img-top',
-        page: 'evaahan.html'
+        page: 'evaahan.html',
+        classes: 'light-green'
     },
     {
         name: 'DTAd',
@@ -29,7 +32,8 @@ const projects = [
         main: 'DTAd Bnw.jpg',
         hover: 'DTAd.jpg',
         layout: 'img-top',
-        page: 'DTA verification low.pdf'
+        page: 'DTA verification low.pdf',
+        classes: 'light-green'
     },
     {
         name: 'Instructional Design',
@@ -37,7 +41,8 @@ const projects = [
         main: 'Instructional Design BnW.jpg',
         hover: 'Instructional Design.jpg',
         layout: 'img-top',
-        page: 'Instructional design o1.pdf'
+        page: 'Instructional design o1.pdf',
+        classes: 'light-green'
     },
     {
         name: 'Our Canoe',
@@ -45,7 +50,8 @@ const projects = [
         main: 'Canoebnw.jpg',
         hover: 'Canoe.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: ''
     },
     {
         name: 'Museum of Language London',
@@ -53,7 +59,8 @@ const projects = [
         main: 'Museum of LAnguage bnw.jpg',
         hover: 'Museum of LAnguage.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: ''
     },
     {
         name: 'Service Design',
@@ -61,7 +68,8 @@ const projects = [
         main: 'service bnW.jpg',
         hover: 'service.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: 'light-green'
     },
     {
         name: 'Footreak',
@@ -69,7 +77,8 @@ const projects = [
         main: 'footreack BnW.jpg',
         hover: 'footreack.jpg',
         layout: 'img-top',
-        page: 'Footreak.pdf'
+        page: 'Footreak.pdf',
+        classes: 'light-green'
     },
     {
         name: 'Beam On',
@@ -77,7 +86,7 @@ const projects = [
         main: 'borad game n.jpg',
         hover: 'borad game.jpg',
         layout: 'img-top',
-        page: ''
+        page: 'light-green'
     },
     {
         name: 'Interior Design',
@@ -85,7 +94,8 @@ const projects = [
         main: 'Interior BnW.jpg',
         hover: 'Interior.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: ''
     },
     {
         name: 'Oblivian',
@@ -93,7 +103,8 @@ const projects = [
         main: 'nuclear bnw.jpg',
         hover: 'nuclear.jpg',
         layout: 'img-down',
-        page: 'oblivian.html'
+        page: 'oblivian.html',
+        classes: ''
     },
     {
         name: 'DataViz.',
@@ -101,7 +112,8 @@ const projects = [
         main: 'Data Viz BnW.jpg',
         hover: 'Data Viz.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: 'light-green'
     },
     {
         name: 'Note Box',
@@ -109,7 +121,8 @@ const projects = [
         main: 'Notebox bnw.jpg',
         hover: 'Notebox.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: 'light-green'
     },
     {
         name: 'Circlization',
@@ -117,7 +130,8 @@ const projects = [
         main: 'circlization BnW.jpg',
         hover: 'circlization.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: 'light-green'
     },
     {
         name: 'Voluteer',
@@ -125,7 +139,8 @@ const projects = [
         main: 'NGO bnw.jpg',
         hover: 'NGO clr.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: ''
     },
     {
         name: 'Landscape Design',
@@ -133,7 +148,8 @@ const projects = [
         main: 'LAndscape BnW.jpg',
         hover: 'LAndscape.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: ''
     },
     {
         name: 'Shollarom',
@@ -141,7 +157,8 @@ const projects = [
         main: 'shollarom bnw.jpg',
         hover: 'shollarom.jpg',
         layout: 'img-top',
-        page: ''
+        page: '',
+        classes: 'light-green'
     }
 ];
 const projectColumns=2,projectsLength=projects.length;
@@ -176,7 +193,7 @@ $(document).ready(function () {
     projects.map(function(project,i){
         if(i%5===0) gridEl+=`</div><div class="row">`;
         gridEl+=`
-        <div class="col-md-3 project" data-page="${project.page}"data-img-hover="${project.hover}" data-img="${project.main}">
+        <div class="col-md-3 project ${project.classes}" data-page="${project.page}"data-img-hover="${project.hover}" data-img="${project.main}">
             <img src="Icons/${project.main}" alt="Lights" style="width:100%">
             <div class="caption">
                 <p class="project-name">${project.name}</p>
