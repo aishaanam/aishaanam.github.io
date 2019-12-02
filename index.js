@@ -86,7 +86,7 @@ const projects = [
         main: 'borad game n.jpg',
         hover: 'borad game.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'beamon.html',
         classes: 'light-green'
     },
     {
@@ -131,7 +131,7 @@ const projects = [
         main: 'circlization BnW.jpg',
         hover: 'circlization.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'circlization.html',
         classes: 'light-green'
     },
     {
