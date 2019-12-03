@@ -68,7 +68,7 @@ const projects = [
         main: 'service bnW.jpg',
         hover: 'service.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'servicedesign.html',
         classes: 'light-green'
     },
     {
@@ -113,7 +113,7 @@ const projects = [
         main: 'Data Viz BnW.jpg',
         hover: 'Data Viz.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'dataviz.html',
         classes: 'light-green'
     },
     {
@@ -140,7 +140,7 @@ const projects = [
         main: 'NGO bnw.jpg',
         hover: 'NGO clr.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'volunteer.html',
         classes: ''
     },
     {
@@ -158,7 +158,16 @@ const projects = [
         main: 'shollarom bnw.jpg',
         hover: 'shollarom.jpg',
         layout: 'img-top',
-        page: '',
+        page: 'shollarom.html',
+        classes: 'light-green'
+    },
+    {
+        name: '50 Years of IDC',
+        description: 'Puzzle cards',
+        main: '50 years bnw.jpg',
+        hover: '50 years cloured.jpg',
+        layout: 'img-top',
+        page: 'idc50.html',
         classes: 'light-green'
     }
 ];
