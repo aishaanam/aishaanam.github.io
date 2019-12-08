@@ -99,7 +99,7 @@ const projects = [
         classes: ''
     },
     {
-        name: 'Oblivian',
+        name: 'Oblivion',
         description: 'Nuclear Landmarker System, New Mexico. <i>Competition Entry</i>',
         main: 'nuclear bnw.jpg',
         hover: 'nuclear.jpg',
@@ -135,7 +135,7 @@ const projects = [
         classes: 'light-green'
     },
     {
-        name: 'Voluteer',
+        name: 'Volunteer',
         description: '',
         main: 'NGO bnw.jpg',
         hover: 'NGO clr.jpg',
